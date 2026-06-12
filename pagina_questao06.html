@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questao 06</title>
+
+    <link rel="stylesheet" href="css/style06.css">
+
+    <script src="js/script06.js"defer></script>
+</head>
+<body>
+    <div id= "geral">
+        <h3>Um endocrinologista deseja controlar a saúde de seus
+            pacientes e, para isto, se utiliza do Índice de Massa
+            Corporal (IMC). Sabendo-se que o IMC é calculado através
+            da seguinte fórmula:
+            
+            Fazer um algoritmo que apresente o nome do paciente
+            e sua faixa de risco, baseando-se na seguinte
+            tabela:</h3>
+         <form id="formulario">
+             <label for="nome">nome:</label>
+             <input type="text" id="nome" name="nome" required>
+            
+             <br><br>
+
+             <label for="peso">peso (kg)</label>
+             <input type="number" id="peso" name="peso" step="0.1" required>
+            
+             <br><br>
+
+             <label for="altura">altura (m):</label>
+             <input type="number" id="altura" name="altura" step="0.01" required>
+
+             <br><br>
+ 
+             <button type="submit">calcular</button>
+             <button type="reset">limpar</button>
+         </form>
+         <div id="resultado">
+ 
+         </div>
+     </div>
+</body>
+</html>
