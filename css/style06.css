@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(241, 238, 238);
+}
+
+#geral{
+    width: 400px;
+    padding: auto;
+    margin: 30px auto;
+    background-color: rgb(255, 255, 255); 
+    padding: 25px;
+    border: 9px solid;
+    border-radius: 23px;
+    color: rgb(0, 0, 0);
+
+}
+label{
+    color: rgb(27, 25, 25);
+    background-color: rgb(255, 255, 255);
+}
+h3{
+    color: rgb(10, 10, 10);
+    background-color: rgb(255, 255, 255);
+}
+
